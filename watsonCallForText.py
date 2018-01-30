@@ -19,8 +19,8 @@ import config
 
 
 
-document_conversion = watson_developer_cloud.DocumentConversionV1(username='431b34ce-91b3-416e-bbfc-ae1bc4fcfb0c',
-                                                                  password='JWfhvOBMFPrW', version='2015-12-15')
+document_conversion = watson_developer_cloud.DocumentConversionV1(username='your-ibm-bluemix-account',
+                                                                  password='****', version='2015-12-15')
 
 def geturl(Address, FileName):
     html_data = urllib.urlopen(Address).read()  # Open the URL
